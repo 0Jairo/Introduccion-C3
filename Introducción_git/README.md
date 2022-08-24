@@ -1,0 +1,21 @@
+# Introduction to git
+
+# Basics Commands
+
+- <strong>git init</strong> (se realiza una sola vez, esto con la finalidad de añadir el proyecto a git)
+- <strong>git add .</strong> <i>or</i> <strong>git add nombre-archivo</strong> (adicionar los archivos al staging area)
+- <strong>git commit -m "mensaje_commit"</strong> (guardar los archivos que están en el stage area con un comentario)
+- <strong>git push origin main</strong> (subir los cambios al repositorio github/gitlab)
+
+
+# Config
+
+- start-ssh-agent (Habilitar agente ssh en windows)
+- git config --local user.name "Tu nombre aquí"
+- git config --local user.email "Tu@email.aqui”
+
+
+### Tools
+
+- Fig -> autoComplete (mac or linux)
+- oh-my-zsh (mac or linux)
