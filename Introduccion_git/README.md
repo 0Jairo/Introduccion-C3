@@ -12,7 +12,7 @@
 - <strong>git branch</strong> (visualizar todas las ramas del proyecto)
 - <strong>git branch nombre-rama</strong> (crear nueva rama)
 - <strong>git checkout nombre-rama</strong> (cambiar de rama)
-- <strong></strong>
+- <strong>git merge nombre-rama</strong> (unir ramas / unir commits de dos ramas)
 
 
 # Config
