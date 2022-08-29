@@ -3,9 +3,12 @@
 # Basics Commands
 
 - <strong>git init</strong> (se realiza una sola vez, esto con la finalidad de añadir el proyecto a git)
-- <strong>git add .</strong> <i>or</i> <strong>git add nombre-archivo</strong> (adicionar los archivos al staging area)
+- <strong>git add .</strong> <i>ó</i> <strong>git add nombre-archivo</strong> (adicionar los archivos al staging area)
 - <strong>git commit -m "mensaje_commit"</strong> (guardar los archivos que están en el stage area con un comentario)
 - <strong>git push origin main</strong> (subir los cambios al repositorio github/gitlab)
+- <strong>git status</strong> (verificar los archivos que están dentro y fuera del stage área)
+- <strong>git log</strong> (visualizar los commits de nuestro proyecto)
+- <strong></strong>
 
 # Config
 
