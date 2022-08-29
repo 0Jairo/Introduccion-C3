@@ -8,7 +8,12 @@
 - <strong>git push origin main</strong> (subir los cambios al repositorio github/gitlab)
 - <strong>git status</strong> (verificar los archivos que están dentro y fuera del stage área)
 - <strong>git log</strong> (visualizar los commits de nuestro proyecto)
+- <strong>git log --oneline</strong> (visualizar commits y ramas del proyecto)
+- <strong>git branch</strong> (visualizar todas las ramas del proyecto)
+- <strong>git branch nombre-rama</strong> (crear nueva rama)
+- <strong>git checkout nombre-rama</strong> (cambiar de rama)
 - <strong></strong>
+
 
 # Config
 
