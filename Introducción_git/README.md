@@ -6,7 +6,7 @@
 - <strong>git add .</strong> <i>or</i> <strong>git add nombre-archivo</strong> (adicionar los archivos al staging area)
 - <strong>git commit -m "mensaje_commit"</strong> (guardar los archivos que están en el stage area con un comentario)
 - <strong>git push origin main</strong> (subir los cambios al repositorio github/gitlab)
-- blabla
+- blablabla
 
 # Config
 
