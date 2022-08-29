@@ -9,7 +9,6 @@
 - <strong>git status</strong> (verificar los archivos que están dentro y fuera del stage área)
 - <strong>git log</strong> (visualizar los commits de nuestro proyecto)
 - <strong></strong>
-code
 
 # Config
 
