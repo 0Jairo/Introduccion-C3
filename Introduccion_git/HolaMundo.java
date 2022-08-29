@@ -1,4 +1,4 @@
-package Introducción_git;
+package Introduccion_git;
 
 public class HolaMundo {
 
