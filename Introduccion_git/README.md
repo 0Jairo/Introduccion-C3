@@ -14,6 +14,8 @@
 - <strong>git checkout nombre-rama</strong> (cambiar de rama)
 - <strong>git merge nombre-rama</strong> (unir ramas / unir commits de dos ramas)
 - <strong>git branch -d nombre-rama</strong> (eliminar una rama)
+- <strong>git clone url-repositorio</strong> (clonar un repositorio remoto)
+- <strong>git pull origin nombre-rama</strong> (traer cambios del repositorio, (indicando la rama de la cual traere los cambios))
 
 
 # Config
