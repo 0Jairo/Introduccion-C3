@@ -1,5 +1,4 @@
 #section-img-home {
-    /*border: 1px solid red;*/
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
@@ -20,10 +19,6 @@ tr,
 td,
 th {
     border: 1px solid black;
-}
-
-#section-img-home {
-    height: 20vw;
 }
 
 #section-img-home img {
