@@ -21,7 +21,10 @@ public class App {
         // Preparar la sesión para transacciones
         session.beginTransaction();
         try {
-            // Generar transacciones...
+            // Crear objeto
+            Mascota mascota = new Mascota("Roko", "Jimenez", "Criollo", "http://fake-photo", "Ninguna");
+            session.persist(mascota);
+            session.getTransaction().commit();
         } catch (Exception e) {
             e.printStackTrace();
         }
