@@ -21,10 +21,15 @@ public class App {
         // Preparar la sesión para transacciones
         session.beginTransaction();
         try {
-            // Crear objeto
-            Mascota mascota = new Mascota("Roko", "Jimenez", "Criollo", "http://fake-photo", "Ninguna");
-            session.persist(mascota);
-            session.getTransaction().commit();
+            /*** Crear objeto ***/
+            // Mascota mascota = new Mascota("Roko", "Jimenez", "Criollo",
+            // "http://fake-photo", "Ninguna");
+            // session.persist(mascota);
+            // session.getTransaction().commit();
+
+            /*** Buscar entidad / registro / mascota ***/
+            Mascota mascota = session.find(Mascota.class, 1);
+            System.out.println("Mascota: " + mascota.getNombre() + " Raza: " + mascota.getRaza());
         } catch (Exception e) {
             e.printStackTrace();
         }
