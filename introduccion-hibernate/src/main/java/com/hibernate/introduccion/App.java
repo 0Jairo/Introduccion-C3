@@ -22,14 +22,20 @@ public class App {
         session.beginTransaction();
         try {
             /*** Crear objeto ***/
-            // Mascota mascota = new Mascota("Roko", "Jimenez", "Criollo",
-            // "http://fake-photo", "Ninguna");
-            // session.persist(mascota);
-            // session.getTransaction().commit();
+            Mascota mascota_1 = new Mascota("Niño", "Quintero", "Criollo", "http://fake-photo", "Sobrepeso");
+            Mascota mascota_2 = new Mascota("Dulce", "Medina", "Bulldog", "http://fake-photo", "Ninguna");
+            Mascota mascota_3 = new Mascota("Firulais", "Jimenez", "Criollo", "http://fake-photo", "Agresivo");
+
+            // Guardar los objetos
+            session.persist(mascota_1);
+            // Enviar los datos a la BD
+            session.getTransaction().commit();
 
             /*** Buscar entidad / registro / mascota ***/
-            Mascota mascota = session.find(Mascota.class, 1);
-            System.out.println("Mascota: " + mascota.getNombre() + " Raza: " + mascota.getRaza());
+            /*
+             * Mascota mascota = session.find(Mascota.class, 1);
+             * System.out.println(mascota);
+             */
         } catch (Exception e) {
             e.printStackTrace();
         }
